@@ -9,7 +9,7 @@ import time
 
 # Import the hyper-personalization engine from curn_pred.py
 try:
-    from curn_pred import HyperPersonalizationEngine, OpenRouterConfig, AIAgent
+    from churn_pred import HyperPersonalizationEngine, OpenRouterConfig, AIAgent
     ENGINE_AVAILABLE = True
 except ImportError:
     ENGINE_AVAILABLE = False
