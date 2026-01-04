@@ -84,11 +84,11 @@ if 'results' not in st.session_state:
 if 'ai_strategies' not in st.session_state:
     st.session_state.ai_strategies = {}
 if 'api_key_1' not in st.session_state:
-    st.session_state.api_key_1 = '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'
+    st.session_state.api_key_1 = None
 if 'api_key_2' not in st.session_state:
-    st.session_state.api_key_2 = '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'
+    st.session_state.api_key_2 = None
 if 'api_key_3' not in st.session_state:
-    st.session_state.api_key_3 = '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'
+    st.session_state.api_key_3 = None
 
 # Sidebar
 st.sidebar.markdown("# 🤖 AI Platform")
