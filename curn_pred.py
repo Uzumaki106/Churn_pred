@@ -817,11 +817,7 @@ if __name__ == "__main__":
     engine = HyperPersonalizationEngine(
         data_path='WA_Fn-UseC_-Telco-Customer-Churn.csv',
         use_ai_agents=True,  # Set to False for faster testing without AI
-        api_keys=[
-              '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',
-              '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',
-              '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'
-         ]  # Will use environment variables
+        api_keys=None  # Will use environment variables
     )
     
     # OPTION 2: Pass API keys directly (less secure, not recommended for production)
@@ -839,3 +835,4 @@ if __name__ == "__main__":
     # analyze_customers: number of customers to deeply analyze with AI (set lower for faster demo)
 
     results = engine.run_full_pipeline(analyze_customers=5)
+
