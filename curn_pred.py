@@ -818,9 +818,9 @@ if __name__ == "__main__":
         data_path='WA_Fn-UseC_-Telco-Customer-Churn.csv',
         use_ai_agents=True,  # Set to False for faster testing without AI
         api_keys=[
-              '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',
-              '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',
-              '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'
+              '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',
+              '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',
+              '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'
          ]  # Will use environment variables
     )
     
@@ -837,4 +837,5 @@ if __name__ == "__main__":
     
     # Run the full pipeline
     # analyze_customers: number of customers to deeply analyze with AI (set lower for faster demo)
+
     results = engine.run_full_pipeline(analyze_customers=5)
